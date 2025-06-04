@@ -216,5 +216,3 @@ Swagger / OpenAPI Docs | `GET /api/docs/`                                   – 
 
 * **Swagger UI**:   `http://localhost:8000/api/docs/`
 * **Admin-панель**: `http://localhost:8000/admin/`
-
-```
