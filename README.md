@@ -90,7 +90,7 @@ Swagger / OpenAPI Docs | `GET /api/docs/`                                   – 
 
 ---
 
-### 🔗 POST `/api/shorten/` – **Создание короткой ссылки**
+### POST `/api/shorten/` – **Создание короткой ссылки**
 
 **Request**:
 
@@ -116,7 +116,7 @@ Swagger / OpenAPI Docs | `GET /api/docs/`                                   – 
 
 ---
 
-### 📄 GET `/api/links/?is_active=true` – **Список ссылок (с фильтрацией)**
+### GET `/api/links/?is_active=true` – **Список ссылок (с фильтрацией)**
 
 **Response**:
 
@@ -150,7 +150,7 @@ Swagger / OpenAPI Docs | `GET /api/docs/`                                   – 
 
 ---
 
-### 🚫 PATCH `/api/shorten/<short_code>/deactivate/` – **Деактивация ссылки**
+### PATCH `/api/shorten/<short_code>/deactivate/` – **Деактивация ссылки**
 
 **Response**:
 
@@ -170,7 +170,7 @@ Swagger / OpenAPI Docs | `GET /api/docs/`                                   – 
 
 ---
 
-### 📈 GET `/api/shorten/stats/` – **Статистика по кликам**
+### GET `/api/shorten/stats/` – **Статистика по кликам**
 
 **Response**:
 
@@ -191,7 +191,7 @@ Swagger / OpenAPI Docs | `GET /api/docs/`                                   – 
 
 ---
 
-### 🔁 GET `/api/code/<short_code>/` – **Редирект**
+### GET `/api/code/<short_code>/` – **Редирект**
 
 **Успешный редирект**: HTTP 302 → `Location: https://example.com/1`
 **Если ссылка устарела**:
